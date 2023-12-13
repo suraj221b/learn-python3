@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
       
       - name: Update Databricks notebook
-        uses: databricks/run-notebook@v0
+        # uses: databricks/run-notebook@v0
         with:
           # local-notebook-path: read_dump.py
           databricks-host: https://adb-8078511278260579.19.azuredatabricks.net
